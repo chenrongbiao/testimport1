@@ -3,21 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8b917add54d48bef401f0fe69dfce5a2e480c006'
-    oldFile: !uuid 'e99d58a16ca02247701428ec463c48f51314c372'
+    newFile: !uuid 'f737bef97fd545e123b6583b2707972f72ae83f8'
+    oldFile: !uuid '8b917add54d48bef401f0fe69dfce5a2e480c006'
   /src/main:
-    newFile: !uuid '1a366ad68b11c7d68f1b66c021d866b4fe9557ba'
-    oldFile: !uuid '38cf5ac757af8782fc1dbae14fb326e10fc60edf'
+    newFile: !uuid '833ada9840f79f7c448dc6a8488a87144201f376'
+    oldFile: !uuid '1a366ad68b11c7d68f1b66c021d866b4fe9557ba'
   /src/main/webapp:
-    newFile: !uuid '77578a5f63bede175b25a5c5517b6b66e239aa47'
-    oldFile: !uuid '0dfa5c0f067e939e5c59efbdfb98e45365d1a0f2'
-  /src/main/webapp/WEB-INF:
-    newFile: !uuid '084c1f3688c90873a81960d7f802788eab1ed58b'
-    oldFile: !uuid 'f8d5252325383fa9af53d65b68086d66da2f194f'
-  /src/main/webapp/WEB-INF/velocity-toolbox.xml:
-    newFile: null
-    oldFile: !uuid '6f64611cee6216efa8446330fde78e06ba686ace'
-gitCommitId: !uuid 'f948670d7aeb76872dc0571ffc14413ec179f492'
+    newFile: !uuid '6814570807ecf31756efc2886f77687a13f10a8e'
+    oldFile: !uuid '77578a5f63bede175b25a5c5517b6b66e239aa47'
+  /src/main/webapp/helpdoc.doc:
+    newFile: !uuid '960f38a3840ed0b64bedface77b6a02c1d00d013'
+    oldFile: !uuid '8f42ec12f48b4315a4f47aeefc84c956e5c7436c'
+gitCommitId: !uuid '82e8e1bf956afd62560c0fa3dba81937f2ff93a8'
 renames: {
   }
-revisionId: 12
+revisionId: 13
