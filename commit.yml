@@ -3,18 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ddcf2e1f9be4c782dcd424d729ecaed3a463dd98'
-    oldFile: !uuid '838f0ca5877eecede7954be6a5cf7e5b3d6e96d7'
+    newFile: !uuid '52f68295adbf7f296658dfd65919d272b9965423'
+    oldFile: !uuid 'ddcf2e1f9be4c782dcd424d729ecaed3a463dd98'
   /src/main:
-    newFile: !uuid '4f988b1b1d4c713d9abb843c6302d9dfebd6f4a4'
-    oldFile: !uuid '7da7295906473c550e8b87704085b798d47bdc26'
+    newFile: !uuid '61a17cc73e20fccac0433ec2fa7cb398b01870a9'
+    oldFile: !uuid '4f988b1b1d4c713d9abb843c6302d9dfebd6f4a4'
   /src/main/webapp:
-    newFile: !uuid '905dd1696b620db016a04efc5f8980904ace7cc3'
-    oldFile: !uuid 'b3ac3491bac3c02e9a997d5b945f1dad8d8f2bb6'
-  /src/main/webapp/qiqiim.sql:
-    newFile: !uuid '220ff969ab6c801a0b96e2dade9f1f860deeb8d4'
+    newFile: !uuid '8abfec29cace067e00cae54966e7609cea979d1a'
+    oldFile: !uuid '905dd1696b620db016a04efc5f8980904ace7cc3'
+  /src/main/webapp/WEB-INF:
+    newFile: !uuid 'f8d5252325383fa9af53d65b68086d66da2f194f'
+    oldFile: !uuid '608f9c69aa949807761daaf26f0a8f778ac4a354'
+  /src/main/webapp/WEB-INF/page:
+    newFile: !uuid '467d678b52e18557fcec6af23d36e6789ad09162'
+    oldFile: !uuid '55001280523766d5d0cc7291a2134d4409c29693'
+  /src/main/webapp/WEB-INF/page/bot.jsp:
+    newFile: !uuid 'be01145a5e0830274833d2cd20eae549a6b34009'
+    oldFile: !uuid 'f91b08049f3efc34b36b6e809d2248d0a405bb0a'
+  /src/main/webapp/WEB-INF/page/chat.jsp:
+    newFile: !uuid '8d5b11f7040f456ebf69def594e0e395f9ad46a7'
+    oldFile: !uuid '490adaa18a677fc346457e5b69915fcad78d7d01'
+  /src/main/webapp/WEB-INF/page/groupchat.jsp:
+    newFile: !uuid 'bd9bcd60c3d3c6cccef710598a205568641842ba'
+    oldFile: !uuid 'dbbc389497116f2c5ddcbf45839d44b5444d3a75'
+  /src/main/webapp/js:
+    newFile: !uuid '0609ef7b27eaf6066dd060be52ceba220ef9a6af'
+    oldFile: !uuid 'cd2d9269871a622b6f3b48a04fa5ea12a82701c3'
+  /src/main/webapp/js/websocketconfig.js:
+    newFile: !uuid '55cf7f5bbb24356ac0090527e644558981671646'
     oldFile: null
-gitCommitId: !uuid '853c88280bf08bc48d2e880246be7f717b17b101'
+gitCommitId: !uuid '25985fc38982e82bcbd33895435000618d5b9318'
 renames: {
   }
-revisionId: 7
+revisionId: 8
