@@ -2,64 +2,22 @@
 branches: {
   }
 fileChange:
-  /pom.xml:
-    newFile: !uuid '8f472e07fff73cb151197c0c55a031a2469c4458'
-    oldFile: !uuid '92acd23f83eda2d64cfb4f75574f0f43b4365bf3'
   /src:
-    newFile: !uuid 'e5b0227e2f8bc75ebcb94f803695aea50e62fed3'
-    oldFile: !uuid 'f737bef97fd545e123b6583b2707972f72ae83f8'
+    newFile: !uuid 'ca1301e71a71a104e7b0b7ec1b8fd791f021bce5'
+    oldFile: !uuid 'e5b0227e2f8bc75ebcb94f803695aea50e62fed3'
   /src/main:
-    newFile: !uuid '7804d763bc025a96cf2d30ad86d48ef42e9cd25e'
-    oldFile: !uuid '833ada9840f79f7c448dc6a8488a87144201f376'
-  /src/main/webapp:
-    newFile: !uuid 'e79ea34263b2c3480c420c2dcc1b9d6df56510e4'
-    oldFile: !uuid '6814570807ecf31756efc2886f77687a13f10a8e'
-  /src/main/webapp/WEB-INF:
-    newFile: !uuid '6aa47df0545a42645e802d370d6e3d7afdd7922c'
-    oldFile: !uuid '084c1f3688c90873a81960d7f802788eab1ed58b'
-  /src/main/webapp/WEB-INF/page:
-    newFile: !uuid '7265727e94129f49435ce2c54e01f4dc812f54ce'
-    oldFile: !uuid '467d678b52e18557fcec6af23d36e6789ad09162'
-  /src/main/webapp/WEB-INF/page/bot.jsp:
-    newFile: !uuid '2ce66212d169e6a35d271cc325e61d80afefa67f'
-    oldFile: !uuid 'be01145a5e0830274833d2cd20eae549a6b34009'
-  /src/main/webapp/WEB-INF/page/chat.jsp:
-    newFile: !uuid '1e2a4c51c6c1b08536207b565a8ee6eb9b24176e'
-    oldFile: !uuid '8d5b11f7040f456ebf69def594e0e395f9ad46a7'
-  /src/main/webapp/WEB-INF/page/groupchat.jsp:
-    newFile: !uuid 'b0a8493dd6828f53168a0d774a7809312c98680a'
-    oldFile: !uuid 'bd9bcd60c3d3c6cccef710598a205568641842ba'
-  /src/main/webapp/WEB-INF/page/public:
-    newFile: !uuid '595f42fd0a51076f1cefe256f41a0f2d77ac3886'
-    oldFile: !uuid '23963d74e1f455ddc2804816da57ddfb55038dea'
-  /src/main/webapp/WEB-INF/page/public/meta.jsp:
-    newFile: !uuid '3d53ced1d7b142384ba3d6f096ab4d2e8e5473b1'
-    oldFile: !uuid 'c3048bca3d482be97da0d63da84dbb51353c06f3'
-  /src/main/webapp/WEB-INF/page/sys:
-    newFile: !uuid 'b89266bcb27857e6f3cc4e5c49a34a882b11ed7e'
-    oldFile: !uuid '815f6bf278177cd64ed7665d29ad91d9f7be4e0e'
-  /src/main/webapp/WEB-INF/page/sys/generatorlist.jsp:
-    newFile: !uuid 'b3bb136f05cd3481557f5cd547240fe3e01d6bcf'
-    oldFile: !uuid '6b70622e0d6938d5d7870701f12569819e395ba6'
-  /src/main/webapp/WEB-INF/page/user:
-    newFile: !uuid 'a8a83b9a038434db575a2110b6740b0ec431bd02'
-    oldFile: !uuid '5e66bb295c24b4deba7c6bbb932c79489583a6e7'
-  /src/main/webapp/WEB-INF/page/user/userlist.jsp:
-    newFile: !uuid '690f031f9a0ad3b09976e5dfbe521e62fd8f0f47'
-    oldFile: !uuid '5ea009b5fe12c64e92394e8c0619cfb9080fa216'
-  /src/main/webapp/WEB-INF/page/user/usermessage.jsp:
-    newFile: !uuid '68941d26b50c5df4524c08d0cf5ed069caab1fc2'
-    oldFile: !uuid '2bf0de725bc3400eaa78796e8692cd13522ccf9a'
-  /src/main/webapp/css:
-    newFile: !uuid '643565336f7d09ad4267e951544b25ee0f2f6a2d'
-    oldFile: !uuid '5c72e94ccfd0a1b3ba96131b1e3f7b0de49cc3bc'
-  /src/main/webapp/css/im.css:
-    newFile: !uuid '8919ba5b5b64bc9f13a047673f7eb843d6f8cbeb'
-    oldFile: !uuid '2c8f221d7f4b720f54e8a4d1aa479f1b3c471fb6'
-  /src/main/webapp/index.jsp:
-    newFile: !uuid 'aaace3034dd9565551c8613e632c43580332c1da'
-    oldFile: !uuid '28747c1b740cc0cd4f75e239775383dd4bd9dc6a'
-gitCommitId: !uuid 'cac4656fdb0e608092fbbea02996e42d83787b1d'
+    newFile: !uuid '058d5b325b752eb95593b80d7beff0db2a9d4d3a'
+    oldFile: !uuid '7804d763bc025a96cf2d30ad86d48ef42e9cd25e'
+  /src/main/resources:
+    newFile: !uuid 'bc4e1bc686a4475a6232b363eaa01b5774a3390b'
+    oldFile: !uuid '278b4bd4967c8f51d7cc31e3daf08506bccba593'
+  /src/main/resources/template:
+    newFile: !uuid 'dcbd00c7d1a6799d7089b26e5131ba99d80f9254'
+    oldFile: !uuid 'f398f93d8d58dc4a6f55690f670ed849ffe0bc16'
+  /src/main/resources/template/Controller.java.vm:
+    newFile: !uuid '8c772fe76cd8354467193d5e16228261ef268573'
+    oldFile: !uuid '2550dd0086598bbbcd5665e374d5d494aeb55baf'
+gitCommitId: !uuid '6bf8e0e4acb7ddcd2c256ac518d3651aa9a61cae'
 renames: {
   }
-revisionId: 14
+revisionId: 15
