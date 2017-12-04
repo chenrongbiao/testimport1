@@ -3,27 +3,45 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '757f60dbd4f8c1b8cd6ae793513ba5cc31c3b9c9'
-    oldFile: !uuid '3062764f217f40fa169c57606b22d44cd0baa1fe'
+    newFile: !uuid 'b0986038053b4442709bf43b495aebe592e4875b'
+    oldFile: !uuid '757f60dbd4f8c1b8cd6ae793513ba5cc31c3b9c9'
   /src/main:
-    newFile: !uuid '7eb3a2b8a349d4b0f383439c033cae5415171507'
-    oldFile: !uuid '3684594eb5bf23102a4548d3a324a0a9bf2d510d'
+    newFile: !uuid 'd8de37fda7daea602cde30695f6d79ded8167c6f'
+    oldFile: !uuid '7eb3a2b8a349d4b0f383439c033cae5415171507'
+  /src/main/java:
+    newFile: !uuid 'e1fd6624177f575d50ac00f0c14d4c97ddff4f8f'
+    oldFile: !uuid 'f9d4ea2f98b7bac5b4019e906d98cd4f1deea320'
+  /src/main/java/com:
+    newFile: !uuid '409a444ab9cd2e64b035cc9989038a239f9c0bb3'
+    oldFile: !uuid 'd4845b767b311f7eb5610f28288ce6d49d293705'
+  /src/main/java/com/qiqiim:
+    newFile: !uuid '8eefefa2c298b5e149014487cbbcda8d19b364ef'
+    oldFile: !uuid '402768a02fc779460e028f30ebfbd9ba795bdd36'
+  /src/main/java/com/qiqiim/webserver:
+    newFile: !uuid 'be4eda492a83438460afad935a296bd0f0e56527'
+    oldFile: !uuid '73876e6f1549cd92676fdf3471423fd42f588398'
+  /src/main/java/com/qiqiim/webserver/user:
+    newFile: !uuid '6a49078655de6c19f06d75b8f374a5069736fd40'
+    oldFile: !uuid '175855a0dab503644bb382bcd1356e6c287d8138'
+  /src/main/java/com/qiqiim/webserver/user/controller:
+    newFile: !uuid '4b0f11b787b6392596a6d32c2d62f1a9e0fff1d7'
+    oldFile: !uuid 'a14c268afb404d6fa57f3e9c01742dd90e0a4940'
+  /src/main/java/com/qiqiim/webserver/user/controller/ImController.java:
+    newFile: !uuid '91e1d78fcb9446ca074c3a3a804c16da1e3d2133'
+    oldFile: !uuid '6a992cea01ece96f483cd4a53d91cac0fdd74c4a'
   /src/main/webapp:
-    newFile: !uuid 'd626d3ffed0d4bee2461598cbe060a41b722d4f2'
-    oldFile: !uuid '2e4d70048518e206b2936f1aec80d8c5ec302ffd'
+    newFile: !uuid 'f019759eadb39cf6837d78a3b39f7ab5171f2bcb'
+    oldFile: !uuid 'd626d3ffed0d4bee2461598cbe060a41b722d4f2'
   /src/main/webapp/WEB-INF:
-    newFile: !uuid '75aedbff6822cef07c3221c81e4edd9a86ebddb1'
-    oldFile: !uuid '33fafb7f355f108b7be935ebd4556d0e5fb838c2'
+    newFile: !uuid 'bdac3c5495f1d935c1aa606b16008397eeb540b9'
+    oldFile: !uuid '75aedbff6822cef07c3221c81e4edd9a86ebddb1'
   /src/main/webapp/WEB-INF/page:
-    newFile: !uuid '7d3df26d0fd07d5d72d8d4558edcb82efa75e239'
-    oldFile: !uuid 'd640e5b94f8fc678bedc10559d55f4b490202d7b'
-  /src/main/webapp/WEB-INF/page/layim.jsp:
-    newFile: !uuid '54cc90361630978b0012725d767b4180090e1fd4'
-    oldFile: !uuid '1fb6587f24cdca5ef782393147245f644b0c362e'
-  /src/main/webapp/WEB-INF/page/layimmobile.jsp:
-    newFile: !uuid 'ede1c6259e167f7e141c18e52347b8305dc35980'
-    oldFile: !uuid 'a2f128ad8a7c0b347b864dbafc677e3d32d97431'
-gitCommitId: !uuid '6383609cf93ae69ad65049cb672b584cbf2065cb'
+    newFile: !uuid 'a205d061afadfffee28515da67be706a27b5c986'
+    oldFile: !uuid '7d3df26d0fd07d5d72d8d4558edcb82efa75e239'
+  /src/main/webapp/WEB-INF/page/chat.jsp:
+    newFile: !uuid 'c6d623cfcfee32b923b58da00673303a43bd2b01'
+    oldFile: !uuid '54b49fd2ea36e2720517bb474ab2a1b241257dbf'
+gitCommitId: !uuid 'ca13533b9bfc6d4ea9e2eb9a6802419e4237460e'
 renames: {
   }
-revisionId: 24
+revisionId: 25
