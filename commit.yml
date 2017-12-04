@@ -3,102 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8ee8afdc6e87c1f471580fb8bb58977eb13e3942'
-    oldFile: !uuid 'c5f8a86ee9249010e8616113864ed7dc75035d95'
+    newFile: !uuid '6d3064257fe40c869b1270adcb9108671380be85'
+    oldFile: !uuid '8ee8afdc6e87c1f471580fb8bb58977eb13e3942'
   /src/main:
-    newFile: !uuid '2cd6f1d987b6b7978b3a3a0c95f4bfdbc1893f8a'
-    oldFile: !uuid 'df3279dc6a41face6029329f2496afd7b89cb7e2'
-  /src/main/java:
-    newFile: !uuid '0d020c5f6ddc5b092a489e89c40d9abbdb567907'
-    oldFile: !uuid '86a7642558a078184d2ec69e8b75ac1da103f88c'
-  /src/main/java/com:
-    newFile: !uuid 'd49fb1d7ec62647990a4cd75a0fbd4f51aa37c2b'
-    oldFile: !uuid '548c437fafaa2821bdb68da2e966841b0a4ed6c7'
-  /src/main/java/com/qiqiim:
-    newFile: !uuid '681c1e7488b39a048410c5227bf70fcd17890743'
-    oldFile: !uuid 'da4d32fa208c935de1616920edbffa7cb7dc6731'
-  /src/main/java/com/qiqiim/constant:
-    newFile: !uuid '617ff4af5c2969d61d3ae692b9f14227a17b87d2'
-    oldFile: !uuid '861e4276f48695f6e1076ed0fafbd8b089c7ab70'
-  /src/main/java/com/qiqiim/constant/Constants.java:
-    newFile: !uuid 'a63166ffeb5df161b2fd3eb1652874adc4bd71d1'
-    oldFile: !uuid 'cffa5908202fac05125df3a4c6cefb6dd48f653c'
-  /src/main/java/com/qiqiim/server:
-    newFile: !uuid 'e00d1617d3832c77a9e736fca84da16655bbc399'
-    oldFile: !uuid 'bbbbedd0b0b95324bd5642f6003d3b23d07140ee'
-  /src/main/java/com/qiqiim/server/ImServerHandler.java:
-    newFile: !uuid '5f9a53b0e1dc09f923b11426c2be222f0f0a70f8'
-    oldFile: !uuid '60df785230aa1092bacd06f40b5adca29f6ea6a4'
-  /src/main/java/com/qiqiim/server/ImWebSocketServerHandler.java:
-    newFile: !uuid '08969947fa43e8e21f21dfaa79b3c75e2a3f6d4a'
-    oldFile: !uuid '90065079a182a56b5748ebe78a216508c469bdb5'
-  /src/main/java/com/qiqiim/server/connertor:
-    newFile: !uuid '45c9333d5aecc251bdbf44c7dd561047fa8fc7c7'
-    oldFile: !uuid '9e3eba01ae5ec462559b6d96a91bb2217eb1a12c'
-  /src/main/java/com/qiqiim/server/connertor/ImConnertor.java:
-    newFile: !uuid '894ae58b5bb93dd0c8f82993d4c275ded6b85d06'
-    oldFile: !uuid '8d458311503009119e23dfe77532b33b21b114d4'
-  /src/main/java/com/qiqiim/server/connertor/impl:
-    newFile: !uuid '79cc1fc9b7e1fd7d2e94ee251dc04950985437ad'
-    oldFile: !uuid 'd14d9b82861866258868f6e28413075d4533e665'
-  /src/main/java/com/qiqiim/server/connertor/impl/ImConnertorImpl.java:
-    newFile: !uuid '721fb254cfefbe98566c0bc95e2d29eba88a19f9'
-    oldFile: !uuid '481653df8194fa345d6d4625f02e8a120b96d5b7'
-  /src/main/java/com/qiqiim/server/model:
-    newFile: !uuid '7fccd9d4b15fd84f2a051ce7e97a89553cbc2ea4'
-    oldFile: !uuid '9aa3c83fe2377024aeeea32c50ca1460a7566237'
-  /src/main/java/com/qiqiim/server/model/MessageWrapper.java:
-    newFile: !uuid '3008e2abd3529417159b9162de23fb9642ace51d'
-    oldFile: !uuid '497cb4a0b41556f75f96b4fc0a008fe5ae6a56d3'
-  /src/main/java/com/qiqiim/server/model/Session.java:
-    newFile: !uuid '28becd6f849d078c03bcd237e23e48798be47891'
-    oldFile: !uuid '82c010deded66aba7aa31fcb78faa28a297cbf7c'
-  /src/main/java/com/qiqiim/server/session:
-    newFile: !uuid '8999fd6b2b7052f190adf0c31de8af910d4cb0d9'
-    oldFile: !uuid '7b6ded76620e9c0af11dcde4533eb399442114fa'
-  /src/main/java/com/qiqiim/server/session/SessionManager.java:
-    newFile: !uuid '7c62feab5e847f356a9750f7b9ce4e336c5397af'
-    oldFile: !uuid 'c0a209b4d9a5a2f5e343fd2831691fbfe62259ec'
-  /src/main/java/com/qiqiim/server/session/impl:
-    newFile: !uuid 'b6d318c3a45ae44f7ec3e25c6e37bb9d7bc33458'
-    oldFile: !uuid '3e3ac7f24d07a8a172243605fd27e6f295641eec'
-  /src/main/java/com/qiqiim/server/session/impl/SessionManagerImpl.java:
-    newFile: !uuid '8221474a3b3ca443a3275eee504104de7b195b9c'
-    oldFile: !uuid '095063f97c4eb3a33c4fd711b69bd3c87c841b58'
+    newFile: !uuid '94418dced097deacfc6434e6a1f0c5ae94d48328'
+    oldFile: !uuid '2cd6f1d987b6b7978b3a3a0c95f4bfdbc1893f8a'
   /src/main/webapp:
-    newFile: !uuid '3c5198b82946ab07994cfc7fb7f00e622e440233'
-    oldFile: !uuid '5527c280e4951383261995a523940a3d38d9eb4c'
+    newFile: !uuid '842ef0bb0fce52c9c663fec4bc522fe65709bd1b'
+    oldFile: !uuid '3c5198b82946ab07994cfc7fb7f00e622e440233'
   /src/main/webapp/WEB-INF:
-    newFile: !uuid '761c74cd89e4d9748f70042f29924ba16a56a63c'
-    oldFile: !uuid '3bc09a3c3e24634e21cc41a40b69535eed2585f1'
+    newFile: !uuid '45cf9d1861160d70e26d83434718c50c6f0cf7c9'
+    oldFile: !uuid '761c74cd89e4d9748f70042f29924ba16a56a63c'
   /src/main/webapp/WEB-INF/page:
-    newFile: !uuid '8da57ada9147a1061917ad9798ccc30ee615943b'
-    oldFile: !uuid 'f4442cc1a27ea99fab92e610056e5a34058350d1'
-  /src/main/webapp/WEB-INF/page/bot.jsp:
-    newFile: !uuid 'fbc2060b7f816554a278b04e062850eaedce0456'
-    oldFile: !uuid 'c9591fbc972f1dafeb28f8dacfaea38317068e3b'
-  /src/main/webapp/WEB-INF/page/chat.jsp:
-    newFile: !uuid '54b49fd2ea36e2720517bb474ab2a1b241257dbf'
-    oldFile: !uuid 'c680afe95a1f60331ec4abf14b042b8b682aae71'
-  /src/main/webapp/WEB-INF/page/groupchat.jsp:
-    newFile: !uuid '9ff74091323a0164c4881014421770c6578075b4'
-    oldFile: !uuid '5d04fcf130b0ca0bcca5cae31f017e45dc85bcaa'
-  /src/main/webapp/WEB-INF/page/layim.jsp:
-    newFile: !uuid 'fab01a764288258871158bbc35f11efa6fe4b7ab'
-    oldFile: !uuid 'd728b7cbe38e7c8b72065f7ada00ad8be3e089d9'
+    newFile: !uuid '292361b93081e3e51ac0b8a9331e39a3edc8f1d1'
+    oldFile: !uuid '8da57ada9147a1061917ad9798ccc30ee615943b'
   /src/main/webapp/WEB-INF/page/layimmobile.jsp:
-    newFile: !uuid '9eac118f6753b70d55a22671013ee4d5461d88f2'
-    oldFile: !uuid '52e3cf893dce09f5742d6c637f0458f45fe3103b'
-  /src/main/webapp/helpdoc.doc:
-    newFile: !uuid 'd34a6525519379cc1a21277067144283467eb57c'
-    oldFile: !uuid '41e4362cef28de9b6b8112c020351a9dd16f3725'
-  /src/main/webapp/js:
-    newFile: !uuid '6712896b3220e25ea3100f4684cd5602dec4e7c4'
-    oldFile: !uuid '94f02c8d4d20fd9f373f509b3877da7293320e2c'
-  /src/main/webapp/js/websocketconfig.js:
-    newFile: !uuid 'ebe403aa382f3d3cd6ae492534c538e9d95d0f32'
-    oldFile: !uuid '55cf7f5bbb24356ac0090527e644558981671646'
-gitCommitId: !uuid '977cf93e95c90ae37cf686911537bd305269205f'
+    newFile: !uuid '6230d9afd0f6ac192f16cbc67583dc634a8a7635'
+    oldFile: !uuid '9eac118f6753b70d55a22671013ee4d5461d88f2'
+gitCommitId: !uuid '4a6f53e1d3afd2dd76706114cf4dff51caf82f22'
 renames: {
   }
-revisionId: 21
+revisionId: 22
