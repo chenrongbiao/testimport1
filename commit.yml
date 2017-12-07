@@ -2,10 +2,34 @@
 branches: {
   }
 fileChange:
-  /.project:
+  /.settings:
     newFile: null
-    oldFile: !uuid '41279716fb3b4232b99093a698c8cbf92a6d05b3'
-gitCommitId: !uuid '1eb9f923cdfcb4419f671cb082651ca5b62e434c'
+    oldFile: !uuid 'dd911ead55e5cf418bef30f2d0abf964357f80e7'
+  /.settings/.jsdtscope:
+    newFile: null
+    oldFile: !uuid '585c967a9c59444cfb43709525951225b4042bc5'
+  /.settings/org.eclipse.jdt.core.prefs:
+    newFile: null
+    oldFile: !uuid 'c788ee346de7ebd4de46ac216ed5ca2de548b7d9'
+  /.settings/org.eclipse.m2e.core.prefs:
+    newFile: null
+    oldFile: !uuid '14b697b7bbb0d85e8d8ee19141a2a92d9ce211be'
+  /.settings/org.eclipse.wst.common.component:
+    newFile: null
+    oldFile: !uuid '1b1d7c9f974fb6e281de33325f475dc3d0b62e22'
+  /.settings/org.eclipse.wst.common.project.facet.core.xml:
+    newFile: null
+    oldFile: !uuid 'd0fa87a3b34415d8c6b53d1c123eb0bc4d56a903'
+  /.settings/org.eclipse.wst.jsdt.ui.superType.container:
+    newFile: null
+    oldFile: !uuid '3bd5d0a4803967bc0bf72a7dd66d7e292ed2e586'
+  /.settings/org.eclipse.wst.jsdt.ui.superType.name:
+    newFile: null
+    oldFile: !uuid '05bd71b6ec2c1982d1e8a5653073281994564ae8'
+  /.settings/org.eclipse.wst.validation.prefs:
+    newFile: null
+    oldFile: !uuid '6f1cba68d5f82a12e1f80e8798437495567e43e7'
+gitCommitId: !uuid 'be165e1af4b6ef313f2bd0c0c797a6807cd03a77'
 renames: {
   }
-revisionId: 28
+revisionId: 29
