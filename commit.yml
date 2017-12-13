@@ -2,10 +2,31 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'c48310160811f45e2fb9f89bedba2aaace162466'
-    oldFile: !uuid 'da70fda4baff15a24a1955c7a45a7363e2700489'
-gitCommitId: !uuid '03a9e1abd4cc23001740c3a92f894370fb679fdb'
+  /src:
+    newFile: !uuid 'bcf11d7b3b0e33b0cf1cd2aa841bc974045bba25'
+    oldFile: !uuid 'd45cabe275dff5550ce372a99ae1c686e82a9ecb'
+  /src/main:
+    newFile: !uuid 'f7bbb4dd9b8de1a035e1d29e915b71784b916f7b'
+    oldFile: !uuid 'cee18ed43a371d2aa4c672ae0b03f3c2516baec0'
+  /src/main/java:
+    newFile: !uuid '861d067d322f4674865fde50e590f75044ae5643'
+    oldFile: !uuid 'ca1cbfd101216997ff11b942f1f742b2bb564517'
+  /src/main/java/com:
+    newFile: !uuid 'fc8daaa3fd6148db8e37133f909df4f584073a75'
+    oldFile: !uuid '94e56825a2714746c866509d462fad90d4ac81e7'
+  /src/main/java/com/qiqiim:
+    newFile: !uuid 'aaad6875298381b644ad9592578883e13da74a61'
+    oldFile: !uuid 'd56118385c74182893ba132b18e72b088225975b'
+  /src/main/java/com/qiqiim/rebot:
+    newFile: !uuid 'fa92e6b9be136fe31feee545e4f5f669d36a1517'
+    oldFile: !uuid 'b8b50dbcfdd0d2bee08b669186e26ee34d443475'
+  /src/main/java/com/qiqiim/rebot/proxy:
+    newFile: !uuid 'f33cb695c50a07bbe2715382b013c6ca3bbfdc22'
+    oldFile: !uuid '7e7451d4de749ac8c6bdf3fd33b042b9aaf32ecd'
+  /src/main/java/com/qiqiim/rebot/proxy/test.java:
+    newFile: null
+    oldFile: !uuid 'cce0ff4daab5710da109e416dbf12c7d7be1f7ff'
+gitCommitId: !uuid 'fb59f1b4036945d142567fea96a2be219541a8e5'
 renames: {
   }
-revisionId: 39
+revisionId: 40
