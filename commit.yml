@@ -2,109 +2,13 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '924448a33b727b1f82905b4dc7e23774f0b55007'
-    oldFile: !uuid 'bcf11d7b3b0e33b0cf1cd2aa841bc974045bba25'
-  /src/main:
-    newFile: !uuid '7f45b4a45ca2d8710f17969c3bbb5a5b473b0018'
-    oldFile: !uuid 'f7bbb4dd9b8de1a035e1d29e915b71784b916f7b'
-  /src/main/java:
-    newFile: !uuid '38201761c2c978d779a0043f978beab7ff9ff766'
-    oldFile: !uuid '861d067d322f4674865fde50e590f75044ae5643'
-  /src/main/java/com:
-    newFile: !uuid '9f8a05827a4700bd08042443f7bf49b621a671c9'
-    oldFile: !uuid 'fc8daaa3fd6148db8e37133f909df4f584073a75'
-  /src/main/java/com/qiqiim:
-    newFile: !uuid '4cd63042311d0f1d970d44d01a1249076494d70d'
-    oldFile: !uuid 'aaad6875298381b644ad9592578883e13da74a61'
-  /src/main/java/com/qiqiim/constant:
-    newFile: !uuid '43a81fe2f81442374f573fc2739b7b3d32c6709f'
-    oldFile: !uuid 'e8b744d02297f69ed6bcfb2b3bd75752a1b6d196'
-  /src/main/java/com/qiqiim/constant/Constants.java:
-    newFile: !uuid '4fdc57910b4249ade4fb2d3c9758b830e91451fe'
-    oldFile: !uuid 'fe0224f3af8af5c93db9365f10fb83e05b7a5417'
-  /src/main/java/com/qiqiim/server:
-    newFile: !uuid '3ac2ddacb095a11e920e0ca4818e91741c6acf0a'
-    oldFile: !uuid '0bee3547080215ad287236075bc78ca1a0942906'
-  /src/main/java/com/qiqiim/server/ImServerHandler.java:
-    newFile: !uuid '001cae36f95ca0d635aa59ec535ba9a97566b4e8'
-    oldFile: !uuid '5f9a53b0e1dc09f923b11426c2be222f0f0a70f8'
-  /src/main/java/com/qiqiim/server/ImWebSocketServerHandler.java:
-    newFile: !uuid '6142f15926b929b99441b069086f9870729495f1'
-    oldFile: !uuid '08969947fa43e8e21f21dfaa79b3c75e2a3f6d4a'
-  /src/main/java/com/qiqiim/server/connertor:
-    newFile: !uuid '1cec1b0d17bca49bc9c5c24e7cf3ec2557265d82'
-    oldFile: !uuid 'd0dc474777194c86e45a8312486a0c853a5476d1'
-  /src/main/java/com/qiqiim/server/connertor/impl:
-    newFile: !uuid '18c5e81efdf1b5609f3f32ea9752eb31ff230cb6'
-    oldFile: !uuid 'a44e02175f9abdb823fb6dffd257d8fd4eea81d8'
-  /src/main/java/com/qiqiim/server/connertor/impl/ImConnertorImpl.java:
-    newFile: !uuid 'ff184c371df24b5201222734b29f45b2a053aaeb'
-    oldFile: !uuid '0d93d4d2c92c0074e6abb6e53d216eaefabf1996'
-  /src/main/java/com/qiqiim/server/session:
-    newFile: !uuid 'a15cb45c074c31bd06074c7e9b52176321a6dd72'
-    oldFile: !uuid 'd928eb3156a2d7242f01a3328d97a0299fdefaa0'
-  /src/main/java/com/qiqiim/server/session/impl:
-    newFile: !uuid '7b5e68c11bbced096e4ea53fb1b28b6645c6bc61'
-    oldFile: !uuid 'a1122c6b79161fd6836de745a1ab5bf0a877d49b'
-  /src/main/java/com/qiqiim/server/session/impl/SessionManagerImpl.java:
-    newFile: !uuid '7da318be10745e7054bbbeec1a3787b7e9d7a256'
-    oldFile: !uuid '5aa60d5b1c6ce65a7033804e33ef2c6ed084f1ee'
-  /src/main/webapp:
-    newFile: !uuid 'e0ae00ca69f8de95aacbed3d917d89961471183f'
-    oldFile: !uuid '97fd9a2fa247c16c6dbeda16448189860ee436a6'
-  /src/main/webapp/WEB-INF:
-    newFile: !uuid 'a4dd6a617316615c5459124db69b09788f4829ad'
-    oldFile: !uuid '9a23da50ced5c8367d52d0d203d5921c4c58d6f2'
-  /src/main/webapp/WEB-INF/page:
-    newFile: !uuid 'cc8ec013274498be8c02cc58b9be36dd26b29a47'
-    oldFile: !uuid '12d5406539962bcd5dcfe7e1f96282253e462ed2'
-  /src/main/webapp/WEB-INF/page/bot.jsp:
-    newFile: !uuid 'cad217ccaef82973d00736b2f4823ff9b0d9a9ee'
-    oldFile: !uuid '0f34a7ad28e4617143c36e1ee61ed75d9b34f06b'
-  /src/main/webapp/WEB-INF/page/chat.jsp:
-    newFile: !uuid '8b287e4b8071c3be5b005ec1ec31bf37098feea8'
-    oldFile: !uuid '2fc359294358874a9e692c463166975ddfba953a'
-  /src/main/webapp/WEB-INF/page/groupchat.jsp:
-    newFile: !uuid '79d027fbe078cb9cf4a79b215c3e136f39df633d'
-    oldFile: !uuid '91fc02523a6bdc63049331d3d1fd938130f4308f'
-  /src/main/webapp/WEB-INF/page/layim.jsp:
-    newFile: !uuid 'c61a7dc3cf087bebafaf6a481b73b92809037b02'
-    oldFile: !uuid 'e221a5409c87e61d92e5040eb3d310118296af0e'
-  /src/main/webapp/WEB-INF/page/layimmobile.jsp:
-    newFile: !uuid '38dc7b493317874ebfc22f5158c9cd740ee2a59d'
-    oldFile: !uuid 'ede1c6259e167f7e141c18e52347b8305dc35980'
-  /src/test:
-    newFile: !uuid 'b88a03ea6ec5b91789c8403a8c820a4b68b62616'
-    oldFile: !uuid '1e1ba642f8e899989bc2bfc4bc5656988ed2dae7'
-  /src/test/java:
-    newFile: !uuid 'fc99da96295275bc2a2a3d1f52340754be3f45fa'
-    oldFile: !uuid 'b22ef20253330615347ac98924262867f0be8719'
-  /src/test/java/com:
-    newFile: !uuid '210d694e9ccf477845fc67d11aa0dc4159eb4ff4'
-    oldFile: !uuid 'd11877e2ee8e50f1454264e7657ed9da6964d230'
-  /src/test/java/com/qiqiim:
-    newFile: !uuid '59a31cc9ff6171629ce2e13967e9e36393b8a64d'
-    oldFile: !uuid '9068e8751f77471e151d0e3e85700bb4d2dad5bb'
-  /src/test/java/com/qiqiim/server:
-    newFile: !uuid 'd77959e93e13457bed3b801305a38029dd745cde'
-    oldFile: !uuid 'cc219b4e044bc9787cd20e7db39f51e4f28cdd4c'
-  /src/test/java/com/qiqiim/server/test:
-    newFile: !uuid '47f75696cef9f072e616c95d75b82bb475014845'
-    oldFile: !uuid 'e5a3a0446973fe34ab5290da2d0ac0f8a868a89e'
-  /src/test/java/com/qiqiim/server/test/QiQiImClient.java:
-    newFile: !uuid '3db243b156f4202d0fd70fe95a0967614ef75471'
-    oldFile: !uuid 'eb32c10663676c445978b89ab22abbc0462ff85d'
-  /src/test/java/com/qiqiim/server/test/QiQiImClientHandler.java:
-    newFile: !uuid 'f4c89abdbcd1f6bef65445108ce4727b2cbe8ceb'
-    oldFile: !uuid '3ea2c04d5bb4bad89c710c381ba1e191ec5c8fb4'
-  /src/test/java/com/qiqiim/server/test/data:
-    newFile: !uuid 'dc0e83ed628eeeb108e3131c892dedd45053cba7'
-    oldFile: !uuid '67f39949d1978ef2d0ffe01edff78961fdc43dd0'
-  /src/test/java/com/qiqiim/server/test/data/MessageData.java:
-    newFile: !uuid 'fb1c24cde681935250395945aee49fe4a18d1999'
-    oldFile: !uuid '1a45227723bd9483cedb59ee2db5016d068f8644'
-gitCommitId: !uuid '7026d2975200539cc52dc59d94825e520d13b483'
+  /:
+    newFile: !uuid 'cfe202d57aa819e230ae4bfcc09a72c2d44f3592'
+    oldFile: !uuid 'a54d049864ccc61e46fd4ad6b6ad694e77408213'
+  /.gitignore:
+    newFile: !uuid 'b83611d8ae056e3be02cf4bb71ef093e7b04391c'
+    oldFile: !uuid '4d5497e959c99953382299b08a95b24c28f26bc0'
+gitCommitId: !uuid '1a87bba76385914c2bae613888544f34a5147eb8'
 renames: {
   }
-revisionId: 41
+revisionId: 42
