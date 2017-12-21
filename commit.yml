@@ -3,72 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '36e0cdeef93198926228e2de71279eef38a1fe16'
-    oldFile: !uuid '924448a33b727b1f82905b4dc7e23774f0b55007'
+    newFile: !uuid 'a4f898c1dc47e2b53c024a6beec3f2de509897a4'
+    oldFile: !uuid '36e0cdeef93198926228e2de71279eef38a1fe16'
   /src/main:
-    newFile: !uuid 'dbedbbf8f08f47929ff7b36ccf9dadf98a032278'
-    oldFile: !uuid '7f45b4a45ca2d8710f17969c3bbb5a5b473b0018'
-  /src/main/java:
-    newFile: !uuid 'ec3f3d7443df81091bd2babb3c0ed66c5bab7ed8'
-    oldFile: !uuid '38201761c2c978d779a0043f978beab7ff9ff766'
-  /src/main/java/com:
-    newFile: !uuid '075e7f71c68727fbde5b2d2cfe5b308147eb3dc1'
-    oldFile: !uuid '9f8a05827a4700bd08042443f7bf49b621a671c9'
-  /src/main/java/com/qiqiim:
-    newFile: !uuid '5c5a3c2ee9ddb2b1c9ddd017fd6c9dbd3463a6f3'
-    oldFile: !uuid '4cd63042311d0f1d970d44d01a1249076494d70d'
-  /src/main/java/com/qiqiim/constant:
-    newFile: !uuid 'ad6b2b6d2402548ff45776cf6295073b028c5836'
-    oldFile: !uuid '43a81fe2f81442374f573fc2739b7b3d32c6709f'
-  /src/main/java/com/qiqiim/constant/Constants.java:
-    newFile: !uuid '9e45f2900179e7edc7819b63c32d6fb888b7cc30'
-    oldFile: !uuid '4fdc57910b4249ade4fb2d3c9758b830e91451fe'
-  /src/main/java/com/qiqiim/server:
-    newFile: !uuid 'ff1aab4ac0c99eb6396a4673b34d75e8e074bae6'
-    oldFile: !uuid '3ac2ddacb095a11e920e0ca4818e91741c6acf0a'
-  /src/main/java/com/qiqiim/server/connertor:
-    newFile: !uuid 'c1f2fff41d48778ab9e157b74c63962562779f8d'
-    oldFile: !uuid '1cec1b0d17bca49bc9c5c24e7cf3ec2557265d82'
-  /src/main/java/com/qiqiim/server/connertor/impl:
-    newFile: !uuid 'e20aba9269bad01ded8f650811da63af946c63e2'
-    oldFile: !uuid '18c5e81efdf1b5609f3f32ea9752eb31ff230cb6'
-  /src/main/java/com/qiqiim/server/connertor/impl/ImConnertorImpl.java:
-    newFile: !uuid '98beabf49eebc9eec9047b5c617aca9d9ab95411'
-    oldFile: !uuid 'ff184c371df24b5201222734b29f45b2a053aaeb'
-  /src/main/java/com/qiqiim/server/proxy:
-    newFile: !uuid 'b9afb98423e5a58b3b8eeb775cbfadebd516395f'
-    oldFile: !uuid '749de1759784607d867e27d5981a8006d2f1f9a1'
-  /src/main/java/com/qiqiim/server/proxy/MessageProxy.java:
-    newFile: !uuid '4128f5fe1d54dfa3585d5a44a503c3931d5d4c52'
-    oldFile: !uuid '7a1d7d586f3cc75a25aa2b55919d12299c319cff'
-  /src/main/java/com/qiqiim/server/proxy/impl:
-    newFile: !uuid '744ff9bdd8d449a7f5b851cf82001c026bcd6c3c'
-    oldFile: !uuid '095c02920ad61f54394c83c030ae6e4df8baad22'
-  /src/main/java/com/qiqiim/server/proxy/impl/MessageProxyImpl.java:
-    newFile: !uuid 'c8816386c3d23951cbe921bf35acdf04f62b903b'
-    oldFile: !uuid '6a15a98c6e2962443ddef00989c9839d27c87f0b'
-  /src/test:
-    newFile: !uuid 'b27ae673e3c4bb1c190aaec71acb9b8add331276'
-    oldFile: !uuid 'b88a03ea6ec5b91789c8403a8c820a4b68b62616'
-  /src/test/java:
-    newFile: !uuid '3c6fbe714e21e6bf1fe750d215500bd65bbaf76c'
-    oldFile: !uuid 'fc99da96295275bc2a2a3d1f52340754be3f45fa'
-  /src/test/java/com:
-    newFile: !uuid '2f8f34ff7e45123ec23409f515c95e179e9133c0'
-    oldFile: !uuid '210d694e9ccf477845fc67d11aa0dc4159eb4ff4'
-  /src/test/java/com/qiqiim:
-    newFile: !uuid '2130a068145647af56ac5079ef4543ba29d10d10'
-    oldFile: !uuid '59a31cc9ff6171629ce2e13967e9e36393b8a64d'
-  /src/test/java/com/qiqiim/server:
-    newFile: !uuid '4c1fd601abe9b83a7b2323ca0f9a767d40f7b07d'
-    oldFile: !uuid 'd77959e93e13457bed3b801305a38029dd745cde'
-  /src/test/java/com/qiqiim/server/test:
-    newFile: !uuid '5d83009a6abd99aba1706286ba2c86c63683f589'
-    oldFile: !uuid '47f75696cef9f072e616c95d75b82bb475014845'
-  /src/test/java/com/qiqiim/server/test/QiQiImClientHandler.java:
-    newFile: !uuid '8ab2f51038144e7c8494e17387bacc5f405a55dd'
-    oldFile: !uuid 'f4c89abdbcd1f6bef65445108ce4727b2cbe8ceb'
-gitCommitId: !uuid '43396a7e91296691a35559bffc0ec1f2f5ac617c'
+    newFile: !uuid '9b9fbed07c88b22d3c7d737713e7ee74968b1356'
+    oldFile: !uuid 'dbedbbf8f08f47929ff7b36ccf9dadf98a032278'
+  /src/main/webapp:
+    newFile: !uuid 'e8dce057cf1fea2d3fd6f3c0e922c8302d192d94'
+    oldFile: !uuid 'e0ae00ca69f8de95aacbed3d917d89961471183f'
+  /src/main/webapp/WEB-INF:
+    newFile: !uuid '449d8ca45202777f7e46cf1a4a90e42f51412f6d'
+    oldFile: !uuid 'a4dd6a617316615c5459124db69b09788f4829ad'
+  /src/main/webapp/WEB-INF/page:
+    newFile: !uuid '3ed00383695d0f125c405f5e2753e02d02a5555d'
+    oldFile: !uuid 'cc8ec013274498be8c02cc58b9be36dd26b29a47'
+  /src/main/webapp/WEB-INF/page/layim.jsp:
+    newFile: !uuid 'aa652253e22ed58881335f0e550a06aef82b4bee'
+    oldFile: !uuid 'c61a7dc3cf087bebafaf6a481b73b92809037b02'
+  /src/main/webapp/WEB-INF/page/layimmobile.jsp:
+    newFile: !uuid '7226431c9b8464ef0e3d5925aca3b06f6274137e'
+    oldFile: !uuid '38dc7b493317874ebfc22f5158c9cd740ee2a59d'
+gitCommitId: !uuid '74a10d7e00cc2380f1cf46e02f7057001aa80306'
 renames: {
   }
-revisionId: 46
+revisionId: 47
