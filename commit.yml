@@ -2,10 +2,31 @@
 branches: {
   }
 fileChange:
-  /pom.xml:
-    newFile: !uuid '6e13d6162b2bb2dbb90f92828f952257e43470a5'
-    oldFile: !uuid 'a83774626baa08b8f9c5aea7110220dd6db72b2b'
-gitCommitId: !uuid 'a74ecff59b144130449153e7d0c9b2fb551d1e69'
+  /src:
+    newFile: !uuid '7d6e37a16aef1b7d2d0c57ae1b9ba6b812fa9586'
+    oldFile: !uuid 'b866ea4ebd1fcdae8777c73892b16b0e439f011a'
+  /src/test:
+    newFile: !uuid '8239e82bdb7638a218ca3f5ad126792d1f89a94e'
+    oldFile: !uuid 'def47f58449774546bb1bb63cde551cf33f38b85'
+  /src/test/java:
+    newFile: !uuid '05b92911bcf2094fe3258d4bf40763724c98db89'
+    oldFile: !uuid '0345e1fdac8f0722f110496f2923da797b22bc1b'
+  /src/test/java/com:
+    newFile: !uuid '29a18959aa7b0aedfd46b84fc239a4e6c98c2726'
+    oldFile: !uuid 'aae3efb0ae7f0a77c42e67a13a959df8576c992e'
+  /src/test/java/com/qiqiim:
+    newFile: !uuid '5ff7b8a98ccb21c9b4cba579af902fa136b9698e'
+    oldFile: !uuid '0f3dbf43cce82c0eec76ea9c5be2d9f85563c7fe'
+  /src/test/java/com/qiqiim/server:
+    newFile: !uuid 'd8b80e84d3ed5509c53dec87be4e1fc8d016bec3'
+    oldFile: !uuid '1c5d8d66482d2d09e5a80a0e10a22119ee505baa'
+  /src/test/java/com/qiqiim/server/test:
+    newFile: !uuid '97a086dc0d7269ba1f0587d08ad8dc32cadbf581'
+    oldFile: !uuid '3ee63004861629786878430433ad866615d218e0'
+  /src/test/java/com/qiqiim/server/test/Testing.java:
+    newFile: !uuid '36676ac170c7639b94a2333b9bf7b85b817f9f8e'
+    oldFile: !uuid '7782940da783beefe33a79fa699908e19e7f17f4'
+gitCommitId: !uuid '06e591882e7b6b70926eee256dc568efe46442c7'
 renames: {
   }
-revisionId: 49
+revisionId: 50
