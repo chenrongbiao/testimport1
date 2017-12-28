@@ -2,43 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid 'b866ea4ebd1fcdae8777c73892b16b0e439f011a'
-    oldFile: !uuid 'a4f898c1dc47e2b53c024a6beec3f2de509897a4'
-  /src/test:
-    newFile: !uuid 'def47f58449774546bb1bb63cde551cf33f38b85'
-    oldFile: !uuid 'b27ae673e3c4bb1c190aaec71acb9b8add331276'
-  /src/test/java:
-    newFile: !uuid '0345e1fdac8f0722f110496f2923da797b22bc1b'
-    oldFile: !uuid '3c6fbe714e21e6bf1fe750d215500bd65bbaf76c'
-  /src/test/java/com:
-    newFile: !uuid 'aae3efb0ae7f0a77c42e67a13a959df8576c992e'
-    oldFile: !uuid '2f8f34ff7e45123ec23409f515c95e179e9133c0'
-  /src/test/java/com/qiqiim:
-    newFile: !uuid '0f3dbf43cce82c0eec76ea9c5be2d9f85563c7fe'
-    oldFile: !uuid '2130a068145647af56ac5079ef4543ba29d10d10'
-  /src/test/java/com/qiqiim/server:
-    newFile: !uuid '1c5d8d66482d2d09e5a80a0e10a22119ee505baa'
-    oldFile: !uuid '4c1fd601abe9b83a7b2323ca0f9a767d40f7b07d'
-  /src/test/java/com/qiqiim/server/test:
-    newFile: !uuid '3ee63004861629786878430433ad866615d218e0'
-    oldFile: !uuid '5d83009a6abd99aba1706286ba2c86c63683f589'
-  /src/test/java/com/qiqiim/server/test/QiQiImClient.java:
-    newFile: !uuid '9d5c800810c465705fd6bcdc86c047f083972d03'
-    oldFile: !uuid '3db243b156f4202d0fd70fe95a0967614ef75471'
-  /src/test/java/com/qiqiim/server/test/QiQiImClientHandler.java:
-    newFile: !uuid 'a0d2416ad1faf11ca7e5ff1cf3f1495d7dc53538'
-    oldFile: !uuid '8ab2f51038144e7c8494e17387bacc5f405a55dd'
-  /src/test/java/com/qiqiim/server/test/Testing.java:
-    newFile: !uuid '7782940da783beefe33a79fa699908e19e7f17f4'
-    oldFile: null
-  /src/test/java/com/qiqiim/server/test/data:
-    newFile: !uuid '2992ba5f2beb883a50f518f6c3828583366a6163'
-    oldFile: !uuid 'dc0e83ed628eeeb108e3131c892dedd45053cba7'
-  /src/test/java/com/qiqiim/server/test/data/MessageData.java:
-    newFile: !uuid '3150ff244c8c8b3646aa006c391d1ae8104d9dd1'
-    oldFile: !uuid 'fb1c24cde681935250395945aee49fe4a18d1999'
-gitCommitId: !uuid 'dfe428a1a98aad77ce67e0bdb16de855b3a98038'
+  /pom.xml:
+    newFile: !uuid '6e13d6162b2bb2dbb90f92828f952257e43470a5'
+    oldFile: !uuid 'a83774626baa08b8f9c5aea7110220dd6db72b2b'
+gitCommitId: !uuid 'a74ecff59b144130449153e7d0c9b2fb551d1e69'
 renames: {
   }
-revisionId: 48
+revisionId: 49
