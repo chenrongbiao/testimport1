@@ -3,27 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '873095ed660c281a2ab116dc5b610fed885858c2'
-    oldFile: !uuid 'f8411a22a6670c4beea41b80459c5c9ab07a141f'
+    newFile: !uuid '831d50bd32fd9a0403ef98279b6bb09d98a9d65d'
+    oldFile: !uuid '873095ed660c281a2ab116dc5b610fed885858c2'
   /src/main:
-    newFile: !uuid 'b5f9b6d4d9ca8c8be20b86006351813e6e195451'
-    oldFile: !uuid '75e4b42ec6d922057394f319c51e175ede622edb'
-  /src/main/webapp:
-    newFile: !uuid '8999ebc5b15da1dbcb66857ae3df00a005ae2ef7'
-    oldFile: !uuid 'a80545f96a525573a6545996edd2a191ef05e534'
-  /src/main/webapp/WEB-INF:
-    newFile: !uuid '487feebcfb6a96ca31f11e0fc4995bed4b686bab'
-    oldFile: !uuid '93f26e7bbf42c20e27e6a42cd7a320319cfb1fd5'
-  /src/main/webapp/WEB-INF/page:
-    newFile: !uuid 'a7345fa9303b2e98e45cbae2b2c358000e136d9c'
-    oldFile: !uuid 'e56f844f8fd162f935c5d5c4bada62a7db2301f7'
-  /src/main/webapp/WEB-INF/page/layim.jsp:
-    newFile: !uuid '64bb3df81dc37c8a45c4fccd979f8b9d6ba2e76e'
-    oldFile: !uuid 'b2cae667e665aaf62df7579a6070ea81ed16bfad'
-  /src/main/webapp/WEB-INF/page/layimmobile.jsp:
-    newFile: !uuid 'a0a123fa294db53fb03da6fafdaf5040092b12e2'
-    oldFile: !uuid '08d810035f498e0e9c37f134c7f36813f71f9843'
-gitCommitId: !uuid '604a86e4827118a795df858bd9451d412e07d177'
+    newFile: !uuid 'f148ca42a3c9c61e6409b368cf92fdab7a87744a'
+    oldFile: !uuid 'b5f9b6d4d9ca8c8be20b86006351813e6e195451'
+  /src/main/java:
+    newFile: !uuid 'fc0639acf1d5ae58144a489c3bbf61fc171f2905'
+    oldFile: !uuid '57cac5f6e4b7f2b1ff9699f9ea67120574b73488'
+  /src/main/java/com:
+    newFile: !uuid '413ae960c789109ea2fc1da7fb07e91dc96574a4'
+    oldFile: !uuid 'ca1efb70e651111096d9e042d29a43e8edc1ecaf'
+  /src/main/java/com/qiqiim:
+    newFile: !uuid '5de77f95737c2811191cf4d3a7ba4033141f8426'
+    oldFile: !uuid '3eced51d5c1df5ca4c2db1e77045d53934b6c7e2'
+  /src/main/java/com/qiqiim/server:
+    newFile: !uuid '49c81d0c508a3c20a0f03109559419ef4bd6d1f3'
+    oldFile: !uuid '8d9234fc149ca587625bd1cc61a468e1a2f36360'
+  /src/main/java/com/qiqiim/server/connertor:
+    newFile: !uuid '7b121dcfdebaa67cdddc34d02f8fd3881fbad48f'
+    oldFile: !uuid 'c1f2fff41d48778ab9e157b74c63962562779f8d'
+  /src/main/java/com/qiqiim/server/connertor/impl:
+    newFile: !uuid '89754b26d422c6e4e2737b1153cc1d33339c801a'
+    oldFile: !uuid 'e20aba9269bad01ded8f650811da63af946c63e2'
+  /src/main/java/com/qiqiim/server/connertor/impl/ImConnertorImpl.java:
+    newFile: !uuid '00f596531c94d028f48769f0ff31aaa7fb67be29'
+    oldFile: !uuid '98beabf49eebc9eec9047b5c617aca9d9ab95411'
+gitCommitId: !uuid 'fd952e64eead7744ec708617bcaf950b908a318e'
 renames: {
   }
-revisionId: 57
+revisionId: 58
