@@ -69,9 +69,8 @@ public class ImConnertorImpl implements ImConnertor{
       		 * }
       		 */ 
       		if (session != null) {
-      			
-      			session.write(wrapper.getBody());
-      			return;
+      			boolean result = session.write(wrapper.getBody());
+      			return ;
       		}
         } catch (Exception e) {
         	log.error("connector pushMessage  Exception.", e);
@@ -93,8 +92,12 @@ public class ImConnertorImpl implements ImConnertor{
 	    	///取得接收人 给接收人写入消息
 	    	Session responseSession = sessionManager.getSession(wrapper.getReSessionId());
 	  		if (responseSession != null && responseSession.isConnected() ) {
-	  			responseSession.write(wrapper.getBody());
-	  			proxy.saveOnlineMessageToDB(wrapper);
+	  			boolean result = responseSession.write(wrapper.getBody());
+	  			if(result){
+	  				proxy.saveOnlineMessageToDB(wrapper);
+	  			}else{
+	  				proxy.saveOfflineMessageToDB(wrapper);
+	  			}
 	  			return;
 	  		}else{
 	  			proxy.saveOfflineMessageToDB(wrapper);
@@ -168,12 +171,13 @@ public class ImConnertorImpl implements ImConnertor{
         try {
         	  String sessionId = wrapper.getSessionId();
         	  String sessionId0 = getChannelSessionId(ctx);
-              if (sessionId.equals(sessionId0)) {
+        	  //当sessionID存在或者相等  视为同一用户重新连接
+              if (StringUtils.isNotEmpty(sessionId0) || sessionId.equals(sessionId0)) {
                   log.info("connector reconnect sessionId -> " + sessionId + ", ctx -> " + ctx.toString());
-                  pushMessage(wrapper);
+                  pushMessage(proxy.getReConnectionStateMsg(sessionId0));
               } else {
                   log.info("connector connect sessionId -> " + sessionId + ", sessionId0 -> " + sessionId0 + ", ctx -> " + ctx.toString());
-                  Session session = sessionManager.createSession(wrapper, ctx);
+                  sessionManager.createSession(wrapper, ctx);
                   setChannelSessionId(ctx, sessionId);
                   log.info("create channel attr sessionId " + sessionId + " successful, ctx -> " + ctx.toString());
               }

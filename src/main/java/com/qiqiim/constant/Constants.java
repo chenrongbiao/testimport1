@@ -33,10 +33,10 @@ public class Constants {
     public static interface ImserverConfig{
     	//连接空闲时间
       	public static final int READ_IDLE_TIME = 60;//秒
-      	//连接空闲时间
+      	//发送心跳包循环时间
       	public static final int WRITE_IDLE_TIME = 40;//秒
         //心跳响应 超时时间
-      	public static final int PING_TIME_OUT = 20; //秒
+      	public static final int PING_TIME_OUT = 70; //秒   需大于空闲时间
       	
         // 最大协议包长度
         public static final int MAX_FRAME_LENGTH = 1024 * 10; // 10k
@@ -81,6 +81,7 @@ public class Constants {
 	   	 byte ONLINE = 3; //上线
 	   	 byte OFFLINE = 4; //下线 
 	   	 byte MESSAGE = 5; //消息
+	   	 byte RECON = 6; //重连
 	}
   
 }
