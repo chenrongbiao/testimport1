@@ -91,6 +91,8 @@ public class ImServer  {
        // future.channel().closeFuture().syncUninterruptibly();
     }
 
+
+
     public void destroy() {
         log.info("destroy qiqiim server ...");
         // 释放线程池资源
