@@ -94,8 +94,6 @@ public class MessageWrapper implements Serializable {
         return MessageProtocol.OFF_LINE.equals(this.protocol);
     }
     
- 
-
     public void setProtocol(MessageProtocol protocol) {
         this.protocol = protocol;
     }
