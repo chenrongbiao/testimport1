@@ -24,7 +24,9 @@
 var msgs =null;
 var lm = null;
  
-layui.use(['jquery','mobile' ], function(){
+layui.config({
+	  version: true
+	}).use(['jquery','mobile' ], function(){
 	    var mobile = layui.mobile
          ,layim = mobile.layim
          ,$ = layui.jquery 
@@ -32,8 +34,7 @@ layui.use(['jquery','mobile' ], function(){
          ,layer = mobile.layer;
 		 var currentsession= "${sessionScope.user.id}";
 	     data = null; 
-	     
-	     
+	      
 		  //发送消息
 	      var sendMsg=function(msg,receiver,group){ 
 	    	  var message = new proto.Model(); 
@@ -182,7 +183,7 @@ layui.use(['jquery','mobile' ], function(){
 		  
 		  //取得离线消息
 		  showOfflineMsg(layim)
-		  
+		  layim.setFriendStatus(currentsession, 'oline');
 	   }); 
 	  //监听发送消息
 	  layim.on('sendMessage', function(data){
@@ -260,6 +261,7 @@ layui.use(['jquery','mobile' ], function(){
           	       } else{
           	    	   //显示非自身消息    
           	    	   if(msg.getSender()!=currentsession){
+          	    		  var time = (new Date(msg.getTimestamp())).getTime(); 
           	    		   //不显示用户组消息
           	    		   if(msg.getGroupid()==null||msg.getGroupid().length<1){
       	    				    lm.getMessage({
@@ -268,7 +270,7 @@ layui.use(['jquery','mobile' ], function(){
 						 	        ,id: msg.getSender()
 						 	        ,type: "friend"
 						 	        ,content: msgCon.getContent()
-						 	        ,timestamp: msg.getTimestamp()
+						 	        ,timestamp:time
 					 	     	});   
           	    		   }else{
           	    			    lm.getMessage({
@@ -277,7 +279,7 @@ layui.use(['jquery','mobile' ], function(){
 						 	        ,id: msg.getGroupid()
 						 	        ,type: "group"
 						 	        ,content: msgCon.getContent()
-						 	        ,timestamp: msg.getTimestamp()
+						 	        ,timestamp: time
 					 	     	});  
           	    		   } 
           	    	   }  
@@ -310,7 +312,6 @@ layui.use(['jquery','mobile' ], function(){
         		    ,btn: ['确定', '取消']
         		    ,yes: function(index){
         		      reconnect(websocketurl,initEventHandle); 
-                      layim.setFriendStatus(currentsession, 'oline');
         		      layer.close(index);
         		      showOfflineMsg(layim)
         		    }

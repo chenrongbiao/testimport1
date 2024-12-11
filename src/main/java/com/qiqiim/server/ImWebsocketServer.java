@@ -162,6 +162,4 @@ public class ImWebsocketServer  {
     public void setConnertor(ImConnertorImpl connertor) {
 		this.connertor = connertor;
 	}
-    
-    
 }
